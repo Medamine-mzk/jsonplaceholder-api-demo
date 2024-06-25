@@ -1,3 +1,35 @@
+# Explications des composants
+
+## GetPosts.js :
+
+### Utilise useEffect pour effectuer une requête GET lorsqu'un composant est monté.
+### axios.get récupère les données des posts.
+### Les posts sont stockés dans l'état posts et affichés sous forme de liste.
+
+## CreatePost.js :
+
+### Contient un formulaire pour saisir le titre et le contenu du post.
+### Utilise axios.post pour envoyer une requête POST avec les données saisies.
+### La réponse est stockée dans l'état response et affichée après l'envoi du formulaire.
+
+## UpdatePost.js :
+
+### Contient un formulaire pour mettre à jour le titre et le contenu d'un post.
+### Utilise axios.put pour envoyer une requête PUT avec les nouvelles données.
+### La réponse est stockée dans l'état response et affichée après l'envoi du formulaire.
+
+## DeletePost.js :
+
+### Contient un bouton pour supprimer un post.
+### Utilise axios.delete pour envoyer une requête DELETE.
+### La réponse est stockée dans l'état response et affichée après la suppression.
+
+# Conclusion
+
+Ces exemples montrent comment intégrer des requêtes HTTP dans des composants React en utilisant axios, tout en fournissant des commentaires pour expliquer chaque étape du processus.
+
+-------------------------------------------------------------------------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
